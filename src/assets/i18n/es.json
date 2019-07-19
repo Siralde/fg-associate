@@ -18,6 +18,15 @@
         ]
     },
     "COPYRIGHT": "Copyright",
-    "CONTACTS": "Video"
+    "CONTACTS": {
+      "FACEBOOK": "fg",
+      "TWITTER": "fg",
+      "INSTAGRAM": "fg",
+      "TELEF_1": "03",
+      "TELEF_2": "02",
+      "TELEF_3": "04",
+      "DIR_1": "DIR 1",
+      "DIR_2": "DIR_2"
+    }
   }
 }

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { InternalFormsSharedModule } from '@angular/forms/src/directives';
+import info from '../../../assets/i18n/es.json';
 
 @Component({
   selector: 'app-transmites',
@@ -7,12 +7,24 @@ import { InternalFormsSharedModule } from '@angular/forms/src/directives';
   styleUrls: ['./transmites.page.scss'],
 })
 export class TransmitesPage implements OnInit {
-  info = require('../../../assets/i18n/es.json');
-  private bulletPoints;
+  public title: any;
+  private bulletPoints: any;
+  public nonSelectedPoints: any;
+  public selectedPoint: any;
 
   constructor() {}
 
   ngOnInit() {
-    this.bulletPoints = this.info.TRANSMITES.PUNTOS;
+    this.title = info.CONTENTS_MENU.TRANSMITES.TITULO;
+    this.bulletPoints = info.CONTENTS_MENU.TRANSMITES.PUNTOS;
+    this.selectedPoint = info.CONTENTS_MENU.TRANSMITES.PUNTOS[0];
+    this.nonSelectedPoints = [...this.bulletPoints];
+    this.nonSelectedPoints.splice(0, 1);
+  }
+
+  onSelectPoint(point: any) {
+    this.selectedPoint = point;
+    this.nonSelectedPoints = [...this.bulletPoints];
+    this.nonSelectedPoints.splice(this.bulletPoints.indexOf(point), 1);
   }
 }
