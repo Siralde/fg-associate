@@ -1,7 +1,22 @@
 {
   "ALL": "Todos",
   "CONTENTS_MENU": {
-    "MODEL": "Servicios",
+    "HOME": "Home",
+    "TRANSMITES": {
+      "TITULO": "Transmites de Documentos",
+      "PUNTOS": [
+        "Prorroga Para Pasaportes De Forma Express y Solucitud Normal.",
+        "Solicitud De Pasaporte para Adultos y Menores de Edad",
+        "Recuperación de Usuario y Contraseña de Saime",
+        "Datos Filiatorios","Antecedentes Penales",
+        "Apostilla de Todo Tipo de Documentos",
+        "Legalizaciones de Todo Tipo de Documentos",
+        "Permisos de Viajes Para Menores",
+        "Partidas de Nacimiento",
+        "Solicitud y Renovación de Pasaporte",
+        "Todo Tipo de Tramite de I.N.T.T."
+        ]
+    },
     "COPYRIGHT": "Copyright",
     "CONTACTS": "Video"
   }

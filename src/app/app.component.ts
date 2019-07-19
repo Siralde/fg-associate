@@ -16,6 +16,11 @@ export class AppComponent {
       icon: 'home',
     },
     {
+      title: 'Transmites de Documentos',
+      url: '/transmites',
+      icon: 'paper',
+    },
+    {
       title: 'Contacts',
       url: '/contact',
       icon: 'contacts',

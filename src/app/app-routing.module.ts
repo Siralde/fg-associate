@@ -15,6 +15,10 @@ const routes: Routes = [
     path: 'contact',
     loadChildren: './pages/contact/contact.module#ContactPageModule',
   },
+  {
+    path: 'transmites',
+    loadChildren: './pages/transmites/transmites.module#TransmitesPageModule',
+  },
 ];
 
 @NgModule({
