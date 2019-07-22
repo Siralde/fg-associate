@@ -19,6 +19,7 @@ const routes: Routes = [
     path: 'transmites',
     loadChildren: './pages/transmites/transmites.module#TransmitesPageModule',
   },
+  { path: 'sapi', loadChildren: './pages/sapi/sapi.module#SapiPageModule' },
 ];
 
 @NgModule({

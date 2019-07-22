@@ -10,8 +10,13 @@
 </ion-header>
 
 <ion-content>
-  <div class="one"></div>
-
+  <div class="one">
+    <ion-virtual-scroll [items]="tramites" approxItemHeight="60px" background="primary">
+      <ion-item *virtualItem="let tramite">
+        {{ tramite }}
+      </ion-item>
+    </ion-virtual-scroll>
+  </div>
   <div class="two"></div>
 
   <div class="three"></div>

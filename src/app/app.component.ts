@@ -21,6 +21,11 @@ export class AppComponent {
       icon: 'paper',
     },
     {
+      title: 'SAPI',
+      url: '/sapi',
+      icon: 'checkmark-circle',
+    },
+    {
       title: 'Contacts',
       url: '/contact',
       icon: 'contacts',

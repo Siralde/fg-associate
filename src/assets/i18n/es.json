@@ -1,14 +1,14 @@
 {
   "ALL": "Todos",
   "CONTENTS_MENU": {
-    "HOME": "Home",
     "TRANSMITES": {
       "TITULO": "Transmites de Documentos",
       "PUNTOS": [
-        "Prorroga Para Pasaportes De Forma Express y Solucitud Normal.",
-        "Solicitud De Pasaporte para Adultos y Menores de Edad",
+        "Prorroga para Pasaportes de forma Express y Solicitud Normal.",
+        "Solicitud de Pasaporte para Adultos y Menores de Edad",
         "Recuperación de Usuario y Contraseña de Saime",
-        "Datos Filiatorios","Antecedentes Penales",
+        "Datos Filiatorios",
+        "Antecedentes Penales",
         "Apostilla de Todo Tipo de Documentos",
         "Legalizaciones de Todo Tipo de Documentos",
         "Permisos de Viajes Para Menores",
@@ -17,16 +17,24 @@
         "Todo Tipo de Tramite de I.N.T.T."
         ]
     },
-    "COPYRIGHT": "Copyright",
+    "SAPI": {
+      "TITULO": "Gestoria y Transmitacion de SAPI",
+      "PUNTOS": [
+        "Registro de Marcas",
+        "Propiedad Industrial",
+        "Propiedad Intelectual",
+        "Derechos de Autor"
+      ]
+    },
     "CONTACTS": {
       "FACEBOOK": "fg",
       "TWITTER": "fg",
       "INSTAGRAM": "fg",
-      "TELEF_1": "03",
-      "TELEF_2": "02",
-      "TELEF_3": "04",
-      "DIR_1": "DIR 1",
-      "DIR_2": "DIR_2"
+      "TELEF_1": "0426-519-50-80",
+      "TELEF_2": "0212-283-75-40",
+      "TELEF_3": "0212-872-36-40",
+      "DIR_1": "Urbanizacion Los Palos Grandes, Centro Plaza",
+      "DIR_2": "Perez Bonalde, Res. Almendro, Menzanina, Oficina 2"
     }
   }
 }
