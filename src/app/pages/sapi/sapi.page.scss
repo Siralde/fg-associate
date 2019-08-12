@@ -1,5 +1,8 @@
 ion-content {
-  --ion-background-color: #fcba06;
+  // --ion-background-color: #fcba06;
+  // background-image: -webkit-linear-gradient(80deg, #fcba06 35%, #74aadd 35%);
+  --ion-background-color: -webkit-linear-gradient(80deg, #fcba06 35%, #74aadd 35%);
+  min-height: 1000px;
 }
 
 //#ffeead
